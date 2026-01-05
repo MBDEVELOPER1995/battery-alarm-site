@@ -1,44 +1,210 @@
-Privacy Policy for Battery Alarm
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Privacy Policy – Battery Alarm</title>
 
+  <style>
+    body {
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+      margin: 0;
+      background: #f6f7f9;
+      color: #111;
+      line-height: 1.6;
+    }
+    .container {
+      max-width: 900px;
+      margin: auto;
+      padding: 24px;
+    }
+    .card {
+      background: #ffffff;
+      border-radius: 16px;
+      padding: 24px;
+      box-shadow: 0 8px 24px rgba(0,0,0,0.06);
+    }
+    h1 {
+      margin-top: 0;
+      font-size: 28px;
+    }
+    h2 {
+      margin-top: 28px;
+      font-size: 20px;
+    }
+    p {
+      margin: 12px 0;
+    }
+    ul {
+      margin: 12px 0 12px 20px;
+    }
+    li {
+      margin-bottom: 8px;
+    }
+    .meta {
+      color: #555;
+      font-size: 14px;
+      margin-bottom: 20px;
+    }
+    a {
+      color: #0a7c3e;
+      text-decoration: none;
+      font-weight: 600;
+    }
+    .footer {
+      margin-top: 32px;
+      font-size: 14px;
+      color: #555;
+    }
+  </style>
+</head>
 
-Last Updated: 5th December, 2025
+<body>
+  <div class="container">
+    <div class="card">
 
-Introduction:
+      <h1>Privacy Policy for Battery Alarm</h1>
 
-This Privacy Policy describes how Battery Alarm ("the app") handles information and explains the purpose of the permissions it requires. Your privacy is important to us, and we are committed to transparency about our practices. This app is designed to function without collecting or transmitting any of your personal data.
+      <div class="meta">
+        <strong>Developer:</strong> mayurbhalavi3<br/>
+        <strong>Last Updated:</strong> 5th December, 2025
+      </div>
 
-Information We Do Not Collect:
+      <h2>Introduction</h2>
+      <p>
+        This Privacy Policy describes how <strong>Battery Alarm</strong> ("the app")
+        handles information and explains the purpose of the permissions it requires.
+        Your privacy is important to us, and we are committed to transparency about
+        our practices.
+      </p>
+      <p>
+        This app is designed to function without collecting or transmitting any of
+        your personal data.
+      </p>
 
-Battery Alarm does not collect, store, or transmit any Personally Identifiable Information (PII) such as your name, email address, location, or contacts. All app settings and user preferences are stored exclusively on your device. The app processes non-personal technical data, such as battery level, charging status, and temperature, strictly for the purpose of providing its core features. This data remains on your device at all times and is never sent to any server. Third-Party Services: Google AdMob supports our app, and we use Google AdMob to display advertisements. AdMob is a third-party service provided by Google that may collect and use data to provide personalized ads. This data may include device identifiers, IP addresses, and other technical information. We do not have access to or control over the data collected by AdMob.
+      <h2>Information We Do Not Collect</h2>
+      <p>
+        Battery Alarm does <strong>not collect, store, or transmit any Personally
+        Identifiable Information (PII)</strong> such as:
+      </p>
+      <ul>
+        <li>Name</li>
+        <li>Email address</li>
+        <li>Location data</li>
+        <li>Contacts</li>
+      </ul>
+      <p>
+        All app settings and user preferences are stored exclusively on your device.
+        The app processes non-personal technical data such as battery level,
+        charging status, and temperature strictly to provide its core functionality.
+        This data remains on your device and is never transmitted to any server.
+      </p>
 
-Permissions Required and Why:
+      <h2>Third-Party Services (Google AdMob)</h2>
+      <p>
+        Battery Alarm uses <strong>Google AdMob</strong>, a third-party advertising
+        service provided by Google, to display advertisements.
+      </p>
+      <p>
+        AdMob may collect and process certain data to serve ads, including:
+      </p>
+      <ul>
+        <li>Advertising ID</li>
+        <li>IP address (may be used for approximate location)</li>
+        <li>Device information such as model and operating system</li>
+        <li>Ad interaction and performance data</li>
+      </ul>
+      <p>
+        We do not have access to or control over the data collected by Google AdMob.
+        For more information, please review Google’s policies:
+      </p>
+      <p>
+        <a href="https://policies.google.com/privacy" target="_blank">Google Privacy Policy</a><br/>
+        <a href="https://policies.google.com/technologies/partner-sites" target="_blank">
+          How Google uses information from apps that use its services
+        </a>
+      </p>
 
-Our app requests certain permissions to provide its services. Here is a clear explanation of why each permission is necessary:
+      <h2>Permissions Required and Their Purpose</h2>
+      <p>
+        Battery Alarm requests the following permissions strictly to enable its core
+        features:
+      </p>
 
-•FOREGROUND_SERVICE and FOREGROUND_SERVICE_SPECIAL_USE: This is essential for the app's main function. It allows the battery monitoring service to run continuously in the background, even when the app is closed. Without this, the app could not reliably trigger an alarm at the user-defined battery level. The task is critical and cannot be paused or deferred, as the battery can reach its target charge at any moment.
+      <ul>
+        <li>
+          <strong>FOREGROUND_SERVICE &amp; FOREGROUND_SERVICE_SPECIAL_USE</strong><br/>
+          Allows continuous battery monitoring in the background so the alarm can
+          trigger at the exact user-defined charge level.
+        </li>
 
-•POST_NOTIFICATIONS: Required to show the persistent notification that the monitoring service is active and to deliver critical alarm alerts when the battery threshold is reached.
+        <li>
+          <strong>POST_NOTIFICATIONS</strong><br/>
+          Required to show persistent monitoring notifications and critical alarm alerts.
+        </li>
 
-•VIBRATE: Used to provide a vibratory alert for the alarm, which can be enabled or disabled by the user in the app's settings.
+        <li>
+          <strong>VIBRATE</strong><br/>
+          Used to provide vibration alerts when the alarm is triggered.
+        </li>
 
-•CAMERA and FLASHLIGHT: Used exclusively for the optional "Flashlight Alert" feature, which blinks the device's flashlight as a visual alarm. This permission is not used for any other purpose.
+        <li>
+          <strong>CAMERA &amp; FLASHLIGHT</strong><br/>
+          Used exclusively for the optional Flashlight Alert feature, which blinks
+          the device flashlight as a visual alarm.
+        </li>
 
-•RECEIVE_BOOT_COMPLETED: Allows the app to automatically restart the battery monitoring service after the device is rebooted. This ensures the alarm remains active without requiring the user to manually open the app each time.
+        <li>
+          <strong>RECEIVE_BOOT_COMPLETED</strong><br/>
+          Allows the app to restart battery monitoring automatically after device reboot.
+        </li>
 
-•WAKE_LOCK and USE_FULL_SCREEN_INTENT: Necessary to wake the device from a sleep state and display the full-screen alarm over the lock screen. This ensures the user is effectively alerted, which is the primary purpose of an alarm app.
+        <li>
+          <strong>WAKE_LOCK &amp; USE_FULL_SCREEN_INTENT</strong><br/>
+          Enables the app to wake the device and display the alarm over the lock screen
+          to ensure the user is alerted.
+        </li>
 
-•INTERNET and ACCESS_NETWORK_STATE: These permissions are required solely by Google AdMob to fetch and display advertisements. The core alarm functionality of the app works offline.
+        <li>
+          <strong>INTERNET &amp; ACCESS_NETWORK_STATE</strong><br/>
+          Required solely for Google AdMob to load and display advertisements.
+          The core alarm functionality works offline.
+        </li>
+      </ul>
 
-Data Security:
+      <h2>Data Security</h2>
+      <p>
+        All app-related data, including alarm settings, is stored locally on your
+        device and protected by the standard security mechanisms of the Android
+        operating system.
+      </p>
 
-All app-related data, such as your alarm settings, is stored locally on your device and is protected by the standard security measures of the Android operating system.
+      <h2>Children’s Privacy</h2>
+      <p>
+        Battery Alarm is not intended for use by children under the age of 9.
+        We do not knowingly collect any information from children.
+      </p>
 
-Children's Privacy:
+      <h2>Changes to This Privacy Policy</h2>
+      <p>
+        We may update this Privacy Policy from time to time. Any changes will be
+        posted on this page with an updated revision date.
+      </p>
 
-This app is not intended for use by children under the age of 9. We do not knowingly collect any information from children.
+      <h2>Contact Us</h2>
+      <p>
+        If you have any questions about this Privacy Policy, you may contact us at:
+      </p>
+      <p>
+        <strong>Email:</strong>
+        <a href="mailto:mayurbhalavi1995@gmail.com">mayurbhalavi1995@gmail.com</a>
+      </p>
 
-Changes to This Privacy Policy:
+      <div class="footer">
+        © 2025 Battery Alarm. All rights reserved.
+      </div>
 
-We may update our Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page. Contact Us If you have any questions about this Privacy Policy, please contact us through our app's support channels.
-
-Support email id: mayurbhalavi1995@gmail.com
+    </div>
+  </div>
+</body>
+</html>
